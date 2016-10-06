@@ -7,7 +7,7 @@ import sys
 import numpy as np
 
 
-results = glob.glob('*RESULTSLP')
+results = glob.glob('*RESULTS')
 results.sort()
 
 
@@ -144,7 +144,7 @@ plt.xticks(range(1,len(sn3)+1))
 plt.ylim((-160,-120))
 plt.xlabel('Trial Number')
 plt.legend(loc=4, frameon=True)
-plt.savefig("SelfNoiseLP.jpg",dpi=300)
+plt.savefig("SelfNoise.jpg",dpi=300)
 plt.clf()
 
 ######################################################################################################################################3
@@ -249,7 +249,7 @@ plt.xticks(range(1,len(sn3)+1))
 plt.ylim((-170,-120))
 plt.xlabel('Trial Number')
 plt.legend(loc=4, frameon=True)
-plt.savefig("PSDNoiseLP.jpg",dpi=300)
+plt.savefig("PSDNoise.jpg",dpi=300)
 plt.clf()
 
 ######################################################################################################################################3
@@ -382,7 +382,7 @@ plt.xticks(range(1,len(sn3)+1))
 plt.ylim((-5,5))
 plt.xlabel('Trial Number')
 plt.legend(loc=4, frameon=True)
-plt.savefig("PSDNoiseMeanRemovedLP.jpg",dpi=300)
+plt.savefig("PSDNoiseMeanRemoved.jpg",dpi=300)
 #plt.show()
 plt.clf()
 
@@ -517,7 +517,7 @@ plt.xticks(range(1,len(sn3)+1))
 plt.ylim((-5,5))
 plt.xlabel('Trial Number')
 plt.legend(loc=4, frameon=True)
-plt.savefig("SelfNoiseMeanRemovedLP.jpg",dpi=300)
+plt.savefig("SelfNoiseMeanRemoved.jpg",dpi=300)
 plt.clf()
 
 ######################################################################################################################################3
